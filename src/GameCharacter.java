@@ -1,6 +1,7 @@
 /**
  * Created by aibar on 7/17/2017.
  */
+//Blueprint for creating game character objects and parent class of Warrior, MagicUingCharacter and Wizard
 public class GameCharacter {
     public String name;
     public int strength;
@@ -37,15 +38,6 @@ public class GameCharacter {
 
     public void setIntelligence(int intelligence) {
         this.intelligence = intelligence;
-    }
-
-    @Override
-    public String toString() {
-        return "GameCharacter{" +
-                "name='" + name + '\'' +
-                ", strength=" + strength +
-                ", intelligence=" + intelligence +
-                '}';
     }
 
     public String Play() {

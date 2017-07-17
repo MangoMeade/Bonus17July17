@@ -1,6 +1,7 @@
 /**
  * Created by aibar on 7/17/2017.
  */
+//child class of GameCharacter
 public class Wizard extends MagicUsingCharacter {
     private int spellNumber;
 
@@ -31,15 +32,8 @@ public class Wizard extends MagicUsingCharacter {
     }
 
     @Override
-    public String toString() {
-        return "Wizard{" +
-                "spellNumber=" + spellNumber +
-                '}';
-    }
-
-    @Override
     public String Play() {
         Wizard gameCharc = new Wizard();
-        return name + " " + strength + " "  + intelligence + " " + magicalEnergy + spellNumber;
+        return name + " " + strength + " "  + intelligence + " " + magicalEnergy + " " + spellNumber;
     }
 }

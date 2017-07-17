@@ -1,6 +1,7 @@
 /**
  * Created by aibar on 7/17/2017.
  */
+//child class of GameCharacter
 public class Warrior extends GameCharacter{
     private String weaponType;
 
@@ -22,13 +23,6 @@ public class Warrior extends GameCharacter{
 
     public void setWeaponType(String weaponType) {
         this.weaponType = weaponType;
-    }
-
-    @Override
-    public String toString() {
-        return "Warrior{" +
-                "weaponType='" + weaponType + '\'' +
-                '}';
     }
 
     @Override

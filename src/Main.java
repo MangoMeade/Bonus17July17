@@ -3,6 +3,8 @@ import java.util.ArrayList;
 /**
  * Created by aibar on 7/17/2017.
  */
+//I added 2 Warrior object and 3 Wizard objects to a GameCharacter ArrayList
+//print all objects in the array using the Play() method
 public class Main {
     public static void main(String[] args) {
         ArrayList<GameCharacter> gameCharacters = new ArrayList<>();

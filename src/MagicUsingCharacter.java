@@ -1,6 +1,7 @@
 /**
  * Created by aibar on 7/17/2017.
  */
+//child class of GameCharacter and parent of Wizard
 public class MagicUsingCharacter extends GameCharacter {
     public int magicalEnergy;
 
@@ -23,13 +24,6 @@ public class MagicUsingCharacter extends GameCharacter {
 
     public void setMagicalEnergy(int magicalEnergy) {
         this.magicalEnergy = magicalEnergy;
-    }
-
-    @Override
-    public String toString() {
-        return "MagicUsingCharacter{" +
-                "magicalEnergy=" + magicalEnergy +
-                '}';
     }
 
     @Override
